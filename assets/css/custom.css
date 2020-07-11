@@ -790,6 +790,10 @@ nav li a {
 
 /* ***** Rates section styles ****** */
 
+.rates-container {
+  margin-bottom: 100px;
+}
+
 .rates-card {
   width: 386px;
   height: 410px;
