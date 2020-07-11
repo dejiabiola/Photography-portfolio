@@ -28,6 +28,7 @@ $(document).ready(function () {
     cssEase: 'linear',
     autoplay: true,
     autoplaySpeed: 2000,
+    centerMode: true,
     responsive: [
       {
         breakpoint: 1068,
@@ -98,25 +99,43 @@ $(document).ready(function () {
 
 
 
-// Logic for dropdown toggle on mobile
+// Logic for dropdown toggle on mobile (gallery)
 $(function(){
-  $(".dropdown-menu li a").click(function(){
-    $(".dropdown-toggles:first-child").text($(this).text());
-     $(".dropdown-toggles:first-child").val($(this).text());
+  $(".gallery li a").click(function(){
+    $(".dropdown-gallery:first-child").text($(this).text());
+     $(".dropdown-gallery:first-child").val($(this).text());
+  });
+});
+
+// Logic for dropdown toggle on mobile (my-work)
+$(function(){
+  $(".my-work li a").click(function(){
+    $(".dropdown-my-work:first-child").text($(this).text());
+     $(".dropdown-my-work:first-child").val($(this).text());
   });
 });
 
 // logic to change active tab pane for gallery section on mobile
 $(document).ready(function(){
-  $('.dropdown-menu li a').on('click', function(){
-    $('.dropdown-menu li a').removeClass('active');
+  $('.gallery li a').on('click', function(){
+    $('.gallery li a').removeClass('active');
     $(this).addClass('active');
     var href = $(this).attr('href').substring(1);
-    $('.tab-pane').removeClass('active show');
-    $('.tab-pane[id="'+ href +'"]').toggleClass('active show');
+    $('.tab-pane-gallery').removeClass('active show');
+    $('.tab-pane-gallery[id="'+ href +'"]').toggleClass('active show');
   });
 });
 
+// logic to change active tab pane for my-work section on mobile
+$(document).ready(function(){
+  $('.my-work li a').on('click', function(){
+    $('.my-work li a').removeClass('active');
+    $(this).addClass('active');
+    var href = $(this).attr('href').substring(1);
+    $('.tab-pane-my-work').removeClass('active show');
+    $('.tab-pane-my-work[id="'+ href +'"]').toggleClass('active show');
+  });
+});
 
 // Hover config for patners section svg images
 $(".svg-hover").mouseover(function () {
@@ -150,12 +169,6 @@ $('.magnify').magnificPopup({
   // other options
 });
 
-
-
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-  console.log('heyyy')
-  $('.slider-gallery').slick('setPosition', 0);
-});
 
 
 
