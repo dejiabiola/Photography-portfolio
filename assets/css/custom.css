@@ -329,6 +329,8 @@ nav li a {
 
 
 
+
+
 .tab-content > .tab-pane, .pill-content > .pill-pane {
   display: block;    /* undo display:none          */
   height: 0;         /* height:0 is also invisible */ 
@@ -372,6 +374,10 @@ nav li a {
     display: block;
     margin-bottom: 33px;
     height: 49px;
+  }
+
+  .gallery-dropdown a {
+    display: block;
   }
 
   .dropdown-toggles {
@@ -1088,15 +1094,15 @@ footer a {
 }
 
 .modal-dialog {
-  max-width: 1200px;
+  max-width: 700px;
   width: 95%;
 }
 
 .modal-top {
-  margin-top: 86px;
+  margin-top: 56px;
   margin-left: 69px;
   margin-right: 69px;
-  margin-bottom: 130px;
+  margin-bottom: 50px;
 }
 
 .modal-top button, .hire-me-mobile {
@@ -1114,7 +1120,7 @@ footer a {
 
 .modal-image {
   margin-bottom: 61px;
-  width: 779px;
+  width: 500px;
   max-width: 100%;
 }
 
@@ -1143,10 +1149,10 @@ footer a {
 
 .image_modal {
   width: 100%;
-  max-width: 779px;
-  height: 776px;
+  max-width: 500px;
+  height: 500px;
   object-fit: cover;
-  margin-bottom: 61px;
+  margin-bottom: 40px;
 }
 
 /* .modal-header-text {
