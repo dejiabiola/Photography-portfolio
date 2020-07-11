@@ -29,7 +29,7 @@ html {
 }
 
 #status {
-  background: url('../../images/preloader.gif');
+  background: url('../images/preloader/preloader.gif');
   background-repeat: no-repeat;
   width: 150px;
   height: 150px;
@@ -42,7 +42,7 @@ html {
 
 /* ***** Header styles ******  */
 header {
-  background: url('../../images/jpegs/hero.jpg') rgba(0, 0, 0, 0.7);
+  background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-blend-mode: multiply;
   background-position: center center;
@@ -119,7 +119,7 @@ a.btn:hover {
 
 @media (max-width: 767px) {
   header {
-    background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg') ;
+    background-image: url('../images/gallery-section/dummy_755x592_ffffff_3D3D3D.png') ;
     filter: brightness(1);
   }
 
@@ -445,10 +445,6 @@ nav li a {
   padding: 0;
 }
 
-.slick-list {
-  margin: 0 16px;
-}
-
 .slide-wrapper-gallery {
   margin-left: 8px;
   margin-right: 8px;
@@ -480,11 +476,6 @@ nav li a {
 }
 
 
-@media (min-width: 768px) {
-  .slider-gallery {
-    padding-left: 100px !important;
-  }
-}
 
 @media (max-width: 767px) {
   .mywork-container {
@@ -725,9 +716,6 @@ nav li a {
   cursor: pointer;
 }
 
-/* .slick-list.dragging {
-  cursor: grabbing;
-}	 */
 
 .slick-slide, .slick-slide *{ 
   outline: none !important; 
@@ -751,11 +739,6 @@ nav li a {
 }
 
 
-@media (min-width: 768px) {
-  .slider-mobile {
-    padding-left: 100px !important;
-  }
-}
 
 @media (max-width: 767px) {
   .mywork-container {
@@ -921,7 +904,7 @@ nav li a {
 /* ***** Patners section styles ****** */
 .patners-container {
   padding-top: 70px;
-  padding-bottom: 107px;
+  padding-bottom: 207px;
 }
 
 .same-h2 {

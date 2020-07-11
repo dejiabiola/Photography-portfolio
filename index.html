@@ -103,25 +103,25 @@
         <section class="gallery-container" id="gallery">
           <h2 class="text-center same-h2" data-aos="fade-up">Gallery</h2>
 
-          <!-- start of gallery menu for desktop -->
+          <!-- ****start of gallery menu for desktop**** -->
           <div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
             <ul class="nav gallery-links mx-auto" id="myTab" role="tablist">
               <li class="nav-item">
                 <a class="nav-link active" id="my-project-tab" data-toggle="tab" href="#my-Project" role="tab" aria-controls="my-project" aria-selected="true">Overview</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="nature-tab" data-toggle="tab" href="#nature" role="tab" aria-controls="nature" aria-selected="false">Nature</a>
+                <a class="nav-link" id="nature-tab" data-toggle="tab" href="#nature" role="tab" aria-controls="nature" aria-selected="false">Wildlife Tour</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="portrait-tab" data-toggle="tab" href="#portrait" role="tab" aria-controls="portrait" aria-selected="false">Portrait</a>
+                <a class="nav-link" id="portrait-tab" data-toggle="tab" href="#portrait" role="tab" aria-controls="portrait" aria-selected="false">Models</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
+                <a class="nav-link" id="ads-tab" data-toggle="tab" href="#ads" role="tab" aria-controls="ads" aria-selected="false">Ads</a>
               </li>
             </ul>
           </div>
 
-
+          <!-- *****start of gallery dropdown for mobile*****  -->
           <ul class="nav gallery-dropdown text-center" role="tablist">
             <li class="dropdown">
               <button class="dropdown-toggle dropdown-toggles py-3 text-left pl-4" data-toggle="dropdown" href="#">Select a Cartegory 
@@ -130,352 +130,276 @@
               <ul class="dropdown-menu custom-dropdown">
                 <li class="p-2 pl-4">
                   <a class="active" data-toggle="tab" 
-                    href="#mobile-project" role="tab">Overview
+                    href="#my-Project" role="tab">Overview
                   </a>
                 </li>
                 <li class="p-2 pl-4">
-                  <a data-toggle="tab" href="#mobile-nature" 
-                    role="tab">Nature
+                  <a data-toggle="tab" href="#nature" 
+                    role="tab">Wildlife Tour
                   </a>
                 </li>
                 <li class="p-2 pl-4">
-                  <a data-toggle="tab" href="#mobile-portrait" 
-                    role="tab">Portrait
+                  <a data-toggle="tab" href="#portrait" 
+                    role="tab">Models
                   </a>
                 </li>
                 <li class="p-2 pl-4">
-                  <a data-toggle="tab" href="#mobile-video" role="tab">Video
+                  <a data-toggle="tab" href="#ads" role="tab">Ads
                   </a>
                 </li>
               </ul>
             </li>
           </ul> 
 
+          <!-- *******start of gallery sliders********* -->
           <div class="tab-content gallery-desktop">
-            <!-- First gallery content (overview) for desktop -->
-            <div class="container-fluid tab-pane fade show active" id="my-Project" role="tabpanel" aria-labelledby="my-project-tab">
-              <div class="row mb-3">
-                <div class="col-md-4 px-0 gallery-image magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png" alt="">
+            <!-- *First gallery content (overview) -->
+
+            <div class="tab-pane fade show active" id="my-Project" role="tabpanel" aria-labelledby="my-project-tab">
+              <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
-                <div class="col-md-3 magnify" data-aos="fade-up" data>
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
-                <div class="col-md-5 px-0 magnify-iframe" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png">
-                    <iframe src="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png" frameborder="0" allow="accelerometer; 
-                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-md-6 gallery-video px-0 magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png">
-                    <video controls poster="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png" preload="metadata">
+              <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <video controls poster="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" preload="metadata">
                       <source src="" type="video/mp4">
                         Sorry, your browser does not support embedded videos.
                     </video>
                   </a>
                 </div>
-                <div class="col-md-4 magnify" data-aos="fade-up">
-                  <a href="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png" alt="">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
-                <div class="col-md-2 px-0 gallery-image magnify" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png" alt="">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
               </div>
-            </div>
+          </div>
+          <!-- *Second gallery tab (wildlife tour) -->
+          <div class="tab-pane fade" id="nature" role="tabpanel" aria-labelledby="nature-tab">
+              <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                  </a>
+                </div>
+              </div>
 
-            <!-- second galery content (Nature) for desktop -->
-            <div class="container-fluid tab-pane fade" id="nature" role="tabpanel" aria-labelledby="nature-tab">
-              <div class="row mb-3">
-                <div class="col-md-4 px-0 gallery-image magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png" alt="">
+              <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
-                <div class="col-md-3 gallery-image magnify" data-aos="fade-up" data>
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
-                <div class="col-md-5 px-0 gallery-image magnify" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png" alt="">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 gallery-image px-0 magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png" alt="">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
-                <div class="col-md-4 gallery-image magnify" data-aos="fade-up">
-                  <a href="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-2 px-0 gallery-image magnify" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png" alt="">
+                <div class="slide-wrapper-gallery magnify">
+                  <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                    <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
                   </a>
                 </div>
               </div>
-            </div>
-
-             <!-- third galery content (portrait) for desktop -->
-             <div class="container-fluid tab-pane fade" id="portrait" role="tabpanel" aria-labelledby="portrait-tab">
-              <div class="row mb-3">
-                <div class="col-md-4 px-0 gallery-image magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-3 gallery-image magnify" data-aos="fade-up" data>
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-5 px-0 gallery-image magnify" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 gallery-image px-0 magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-4 gallery-image magnify" data-aos="fade-up">
-                  <a href="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-md-2 px-0 gallery-image magnify" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- fourth galery content (video) for desktop -->
-            <div class="container-fluid tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
-              <div class="row mb-3">
-                <div class="col-md-4 px-0 magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png">
-                    <iframe src="./assets/images/gallery-section/dummy_480x303_ffffff_3D3D3D.png" frameborder="0" allow="accelerometer; 
-                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                  </iframe>
-                  </a>
-                </div>
-                <div class="col-md-3 magnify" data-aos="fade-up" data>
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <video controls poster="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                      <source src="" type="video/mp4">
-                        Sorry, your browser does not support embedded videos.
-                    </video>
-                  </a>
-                </div>
-                <div class="col-md-5 px-0 magnify" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png">
-                    <iframe src="./assets/images/gallery-section/dummy_720x303_ffffff_3D3D3D.png" frameborder="0" allow="accelerometer; 
-                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                  </iframe>
-                  </a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 gallery-video px-0 magnify" data-aos="fade-right">
-                  <a href="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png">
-                    <video controls poster="./assets/images/gallery-section/dummy_600x303_ffffff_3D3D3D.png">
-                      <source src="" type="video/mp4">
-                        Sorry, your browser does not support embedded videos.
-                    </video>
-                  </a>
-                </div>
-                <div class="col-md-4 magnify" data-aos="fade-up">
-                  <a href="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png">
-                    <video controls poster="./assets/images/gallery-section/dummy_450x303_ffffff_3D3D3D.png">
-                      <source src="" type="video/mp4">
-                        Sorry, your browser does not support embedded videos.
-                    </video>
-                  </a>
-                </div>
-                <div class="col-md-2 px-0 magnify" data-aos="fade-left">
-                  <a href="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png">
-                    <video controls poster="./assets/images/gallery-section/dummy_240x303_ffffff_3D3D3D.png">
-                      <source src="" type="video/mp4">
-                        Sorry, your browser does not support embedded videos.
-                    </video>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-
           </div>
 
 
-          <div class="tab-content gallery-mobile">
-            <div class="container-fluid tab-pane fade show active" id="mobile-project">
-              <div class="row mb-3">
-                <div class="col-9 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-3 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-4 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-8 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-12 px-0 gallery-video magnify">
-                <video controls poster="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" preload="auto">
-                  <source src="" type="video/mp4">
-                    Sorry, your browser does not support embedded videos.
-                </video>
-                </div>
-              </div>
-            </div>
+             <!-- *third galery tab (models) -->
 
-            <div class="container-fluid tab-pane fade" id="mobile-nature">
-              <div class="row mb-3">
-                <div class="col-9 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
+             <div class="tab-pane fade" id="portrait" role="tabpanel" aria-labelledby="portrait-tab">
+                <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
                 </div>
-                <div class="col-3 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
+  
+                <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-4 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-8 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-12 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="container-fluid tab-pane fade" id="mobile-portrait">
-              <div class="row mb-3">
-                <div class="col-9 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-3 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-4 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-8 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-12 px-0 gallery-video magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div class="container-fluid tab-pane fade" id="mobile-video">
-              <div class="row mb-3">
-                <div class="col-9 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-3 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-4 px-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-                <div class="col-8 pr-0 magnify">
-                  <a href="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png">
-                    <img src="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="row mb-3">
-                <div class="col-12 px-0 gallery-video">
-                <video controls poster="./assets/images/gallery-section/dummy_330x303_ffffff_3D3D3D.png" preload="auto">
-                  <source src="" type="video/mp4">
-                    Sorry, your browser does not support embedded videos.
-                </video>
-                </div>
-              </div>
             </div>
 
 
-          </div>
-          
-          
-          <div class="container text-center" data-aos="fade-up">
-            <button type="button" class="btn btn-primary gallery-button">Learn More</button>
+
+            <!-- *fourth galery tab (ads) -->
+            <div class="tab-pane fade" id="ads" role="tabpanel" aria-labelledby="ads-tab">
+                <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                </div>
+  
+                <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center">
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <video controls poster="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" preload="metadata">
+                        <source src="" type="video/mp4">
+                          Sorry, your browser does not support embedded videos.
+                      </video>
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                  <div class="slide-wrapper-gallery magnify">
+                    <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png">
+                      <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
           </div>
         </section>
+
 
         <section class="about-me-container" id='about'>
           <div class="container">
@@ -578,7 +502,7 @@
           </div>
 
 
-          <div class="container-fluid slider-mobile pl-md-5 pr-md-0 d-flex align-items-center slider-top">
+          <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-top">
             <div class="slide-wrapper" data-aos="zoom-out">
               <img src="./assets/images/my-work-image.png" alt="wedding-picture" class="image" data-toggle="modal" 
                 data-target="#myModal" data-name="Mr & Mrs Keith" data-date="June 21, 2020">
@@ -605,7 +529,7 @@
             </div>
           </div>
 
-          <div class="container-fluid slider-mobile pl-md-5 pr-md-0 d-flex align-items-center slider-bottom">
+          <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-bottom">
               <div class="slide-wrapper" data-aos="zoom-out">
                 <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
                 data-target="#myModal" data-name="Mr & Mrs Daniel" data-date="June 21, 2020">
