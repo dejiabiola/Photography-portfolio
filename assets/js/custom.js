@@ -24,9 +24,10 @@ AOS.init({
 $(document).ready(function () {
   $('.slider-mobile').slick({
     slidesToShow: 3,
+    infinite: true,
     cssEase: 'linear',
     autoplay: true,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1068,
@@ -63,7 +64,8 @@ $(document).ready(function () {
     slidesToShow: 4,
     cssEase: 'linear',
     autoplay: true,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 2500,
+    infinite: true,
     responsive: [
       {
         breakpoint: 1068,
