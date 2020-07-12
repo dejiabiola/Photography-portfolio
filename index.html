@@ -127,10 +127,11 @@
           <!-- *****start of gallery dropdown for mobile*****  -->
           <ul class="nav gallery-dropdown text-center" role="tablist">
             <li class="dropdown">
-              <button class="dropdown-toggle dropdown-toggles py-3 text-left pl-4" data-toggle="dropdown" href="#">Select a Cartegory 
+              <button class="dropdown-toggle dropdown-toggles dropdown-gallery py-3 text-left pl-4" 
+                data-toggle="dropdown" href="#">Select a Cartegory 
               </button>
               <b class="caret"></b>
-              <ul class="dropdown-menu custom-dropdown">
+              <ul class="dropdown-menu custom-dropdown gallery">
                 <li class="p-2 pl-4">
                   <a class="active" data-toggle="tab" 
                     href="#overview" role="tab">Overview
@@ -158,7 +159,7 @@
           <div class="tab-content gallery-desktop">
             <!-- *First gallery content (overview) -->
 
-            <div class="tab-pane show active" id="overview" role="tabpanel" aria-labelledby="overview-tab" data-aos="fade-up">
+            <div class="tab-pane tab-pane-gallery show active" id="overview" role="tabpanel" aria-labelledby="overview-tab" data-aos="fade-up">
               <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center magnify">
                   <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" class="slide-wrapper-gallery">
                     <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
@@ -198,7 +199,7 @@
               </div>
           </div>
           <!-- *Second gallery tab (wildlife tour) -->
-          <div class="tab-pane fade" id="wildlife" role="tabpanel" aria-labelledby="wildlife-tab">
+          <div class="tab-pane tab-pane-gallery fade" id="wildlife" role="tabpanel" aria-labelledby="wildlife-tab">
               <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center magnify">
                   <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" class="slide-wrapper-gallery">
                     <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
@@ -239,7 +240,7 @@
 
              <!-- *third galery tab (models) -->
 
-             <div class="tab-pane fade" id="models" role="tabpanel" aria-labelledby="models-tab">
+             <div class="tab-pane tab-pane-gallery fade" id="models" role="tabpanel" aria-labelledby="models-tab">
                 <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center magnify">
                     <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" class="slide-wrapper-gallery">
                       <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
@@ -280,7 +281,7 @@
 
 
             <!-- *fourth galery tab (ads) -->
-            <div class="tab-pane fade" id="ads" role="tabpanel" aria-labelledby="ads-tab">
+            <div class="tab-pane tab-pane-gallery fade" id="ads" role="tabpanel" aria-labelledby="ads-tab">
               <div class="container-fluid slider-gallery pl-md-0 pr-md-0 d-flex align-items-center magnify">
                 <a href="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" class="slide-wrapper-gallery">
                   <img src="./assets/images/gallery-section/dummy_285x303_ffffff_3D3D3D.png" alt="">
@@ -389,114 +390,284 @@
           <div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600">
             <ul class="nav gallery-links mx-auto" id="myTab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active" id="my-work-wedding-tab" data-toggle="tab" href="#my-work-wedding" role="tab" aria-controls="my-work-wedding" aria-selected="true">Wedding</a>
+                <a class="nav-link active" id="my-project-tab" data-toggle="tab" href="#my-project" role="tab" 
+                aria-controls="my-project" aria-selected="true">My Project</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="my-work-nature-tab" data-toggle="tab" href="#my-work-nature" role="tab" aria-controls="my-work-nature" aria-selected="false">Nature</a>
+                <a class="nav-link" id="nature-tab" data-toggle="tab" href="#nature" role="tab" aria-controls="nature" aria-selected="false">Nature</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="my-work-portrait-tab" data-toggle="tab" href="#my-work-portrait" role="tab" aria-controls="my-work-portrait" aria-selected="false">Portrait</a>
+                <a class="nav-link" id="portrait-tab" data-toggle="tab" href="#portrait" role="tab" aria-controls="portrait" aria-selected="false">Portrait</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="my-work-video-tab" data-toggle="tab" href="#my-work-video" role="tab" aria-controls="my-work-video" aria-selected="false">Video</a>
+                <a class="nav-link" id="videos-tab" data-toggle="tab" href="#videos" role="tab" aria-controls="videos" aria-selected="false">Videos</a>
               </li>
             </ul>
           </div>
 
 
-          <div class="dropdown gallery-dropdown text-center">
-            <button class="btn btn-light dropdown-toggles text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Select Cartegory
-              <img src="./assets/images/icons/drop-down-arrow.svg" alt="" class="float-right icon mt-1">
-            </button>
-            <ul class="dropdown-menu custom-dropdown" aria-labelledby="dropdownMenuButton" id="myTab" role="tablist">
-              <li>
-                <a class="dropdown-item py-2 active bg-light" id="wedding-tab" data-toggle="tab" href="#wedding" role="tab" aria-controls="wedding" aria-selected="true">Wedding</a>
-              </li>
-              <li>
-                <a class="dropdown-item py-2" id="nature-tab" data-toggle="tab" href="#nature" role="tab" aria-controls="nature" aria-selected="false">Nature</a>
-              </li>
-              <li>
-                <a class="dropdown-item py-2" id="portrait-tab" data-toggle="tab" href="#portrait" role="tab" aria-controls="portrait" aria-selected="false">Portrait</a>
-              </li>
-              <li>
-                <a class="dropdown-item py-2" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Video</a>
-              </li>
-            </ul>
-          </div>
+          <ul class="nav gallery-dropdown text-center" role="tablist">
+            <li class="dropdown">
+              <button class="dropdown-toggle dropdown-toggles dropdown-my-work py-3 text-left pl-4" data-toggle="dropdown" 
+                href="#">Select a Cartegory 
+              </button>
+              <b class="caret"></b>
+              <ul class="dropdown-menu custom-dropdown my-work">
+                <li class="p-2 pl-4">
+                  <a class="active" data-toggle="tab" 
+                    href="#my-project" role="tab">My project
+                  </a>
+                </li>
+                <li class="p-2 pl-4">
+                  <a data-toggle="tab" href="#nature" 
+                    role="tab">Nature
+                  </a>
+                </li>
+                <li class="p-2 pl-4">
+                  <a data-toggle="tab" href="#portrait" 
+                    role="tab">Portrait
+                  </a>
+                </li>
+                <li class="p-2 pl-4">
+                  <a data-toggle="tab" href="#videos" role="tab">Videos
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul> 
 
 
-          <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-top">
-            <div class="slide-wrapper" data-aos="zoom-out">
-              <img src="./assets/images/my-work-image.png" alt="wedding-picture" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Keith" data-date="June 21, 2020">
-              <p class="mb-0">Mr & Mrs Keith</p>
-              <p>June 21, 2020</p>
+          <div class="tab-content gallery-desktop">
+            <!-- *First My-work content (my-project) -->
+
+            <div class="tab-pane tab-pane-my-work fade show active" id="my-project" role="tabpanel" aria-labelledby="my-project-tab" data-aos="fade-up">
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-top">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                    data-target="#myModal" data-name="Mr & Mrs Keith" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Ruth" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Ruth</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Doe" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Doe</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Andrew" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Andrew</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
+    
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-bottom">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Daniel" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Daniel</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Agnes" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Agnes</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Tom" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Tom</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
             </div>
-            <div class="slide-wrapper" data-aos="zoom-out">
-              <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-              data-target="#myModal" data-name="Mr & Mrs Ruth" data-date="June 22, 2020">
-              <p class="mb-0">Mr & Mrs Ruth</p>
-              <p>June 22, 2020</p>
+
+            <!-- ***Second my work slider pane -->
+            <div class="tab-pane tab-pane-my-work fade" id="nature">
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-top">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                    data-target="#myModal" data-name="Mr & Mrs Keith" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Ruth" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Ruth</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Doe" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Doe</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Andrew" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Andrew</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
+    
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-bottom">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Daniel" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Daniel</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Agnes" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Agnes</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Tom" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Tom</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
             </div>
-            <div class="slide-wrapper" data-aos="zoom-out">
-              <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-              data-target="#myModal" data-name="Mr & Mrs Doe" data-date="June 23, 2020">
-              <p class="mb-0">Mr & Mrs Doe</p>
-              <p>June 23, 2020</p>
+
+            <!-- **Third my-work tab pane -->
+            <div class="tab-pane tab-pane-my-work fade" id="portrait">
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-top">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                    data-target="#myModal" data-name="Mr & Mrs Keith" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Ruth" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Ruth</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Doe" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Doe</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Andrew" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Andrew</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
+    
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-bottom">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Daniel" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Daniel</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Agnes" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Agnes</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Tom" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Tom</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
             </div>
-            <div class="slide-wrapper" data-aos="zoom-out">
-              <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-              data-target="#myModal" data-name="Mr & Mrs Andrew" data-date="October 21, 2020">
-              <p class="mb-0">Mr & Mrs Andrew</p>
-              <p>October 21, 2020</p>
+
+            <!-- ***Fourth my work slider pane -->
+            <div class="tab-pane tab-pane-my-work fade" id="videos">
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-top">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                    data-target="#myModal" data-name="Mr & Mrs Keith" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Ruth" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Ruth</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Doe" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Doe</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Andrew" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Andrew</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
+    
+              <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-bottom">
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Daniel" data-date="June 21, 2020">
+                  <p class="mb-0">Mr & Mrs Daniel</p>
+                  <p>June 21, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Agnes" data-date="June 22, 2020">
+                  <p class="mb-0">Mr & Mrs Agnes</p>
+                  <p>June 22, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Tom" data-date="June 23, 2020">
+                  <p class="mb-0">Mr & Mrs Tom</p>
+                  <p>June 23, 2020</p>
+                </div>
+                <div class="slide-wrapper" data-aos="zoom-out">
+                  <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
+                  data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
+                  <p class="mb-0">Mr & Mrs Keith</p>
+                  <p>October 21, 2020</p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="container-fluid slider-mobile pl-md-0 pr-md-0 d-flex align-items-center slider-bottom">
-              <div class="slide-wrapper" data-aos="zoom-out">
-                <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Daniel" data-date="June 21, 2020">
-                <p class="mb-0">Mr & Mrs Daniel</p>
-                <p>June 21, 2020</p>
-              </div>
-              <div class="slide-wrapper" data-aos="zoom-out">
-                <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Agnes" data-date="June 22, 2020">
-                <p class="mb-0">Mr & Mrs Agnes</p>
-                <p>June 22, 2020</p>
-              </div>
-              <div class="slide-wrapper" data-aos="zoom-out">
-                <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Tom" data-date="June 23, 2020">
-                <p class="mb-0">Mr & Mrs Tom</p>
-                <p>June 23, 2020</p>
-              </div>
-              <div class="slide-wrapper" data-aos="zoom-out">
-                <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
-                <p class="mb-0">Mr & Mrs Keith</p>
-                <p>October 21, 2020</p>
-              </div>
-              <div class="slide-wrapper" data-aos="zoom-out">
-                <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
-                <p class="mb-0">Mr & Mrs Keith</p>
-                <p>October 21, 2020</p>
-              </div>
-              <div class="slide-wrapper" data-aos="zoom-out">
-                <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
-                <p class="mb-0">Mr & Mrs Keith</p>
-                <p>October 21, 2020</p>
-              </div>
-              <div class="slide-wrapper" data-aos="zoom-out">
-                <img src="./assets/images/my-work-image.png" alt="" class="image" data-toggle="modal" 
-                data-target="#myModal" data-name="Mr & Mrs Keith" data-date="October 21, 2020">
-                <p class="mb-0">Mr & Mrs Keith</p>
-                <p>October 21, 2020</p>
-              </div>
-          </div>
         </section>
 
 

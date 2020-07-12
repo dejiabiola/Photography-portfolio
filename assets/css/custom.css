@@ -26,18 +26,16 @@ html {
   right: 0;
   bottom: 0;
   z-index: 9999;
+  display: flex;
+  justify-content: center;
 }
 
 #status {
   background: url('../images/preloader/preloader.gif');
   background-repeat: no-repeat;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-left: -55px;
-  margin-top: -75px;
+  width: 60px;
+  height: 60px;
+  margin-top: 250px;
 }
 
 /* ***** Header styles ******  */
@@ -332,13 +330,24 @@ nav li a {
 
 
 .tab-content > .tab-pane, .pill-content > .pill-pane {
-  display: block;    /* undo display:none          */
-  height: 0;         /* height:0 is also invisible */ 
-  overflow: hidden;  /* no-overflow                */
+  display: block;    
+  height: 0;        
+  overflow: hidden; 
 }
 .tab-content > .active, .pill-content > .active {
-  height: auto;      /* let the content decide it  */
-} /* bootstrap hack end */
+  height: auto;     
+}
+
+.slide-wrapper-gallery a img {
+  transition: transform 0.3s linear;
+  transition-delay: 0.5s;
+
+}
+
+.slide-wrapper-gallery a:not(.slick-current) img {
+  transform: scale(0.9);
+  transition-delay: 0s;
+}
 
 
 @media (max-width: 767px) {
@@ -877,6 +886,11 @@ nav li a {
 
 
 @media (max-width: 767px) {
+
+  .rates-container {
+    margin-bottom: 0px;
+  }
+
   .rates-card {
     width: 365px;
     height: 367px;
@@ -936,6 +950,13 @@ nav li a {
     font-size: 35px;
     line-height: 47px;
   }  
+
+  .patners-container {
+    padding-top: 70px;
+    padding-bottom: 107px;
+  }
+
+
 }
 
 
@@ -1116,6 +1137,12 @@ footer a {
   line-height: 31px;
   color: var(--primary-color);
   background: none;
+  transition: 0.5s;
+}
+
+.modal-top button:hover, .hire-me-mobile:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .modal-image {
@@ -1237,31 +1264,6 @@ footer a {
 
 
 }
-
-
-@media (min-width: 400px) {
-
-
-  /* .modal-top > .row {
-    justify-content: space-between !important;
-  } */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
-
 
 
 
