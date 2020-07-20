@@ -863,7 +863,7 @@
     <script src="./assets/js/jquery/jquery-3.5.1.min.js"></script>
     <script>
       // logic for the preloader
-      $(window).on('load', function () {
+      $(document).ready(function () {
         $('#status').fadeOut()
         $('#preloader').delay(500).fadeOut()
         $('.navbar-brand').addClass('animate__animated animate__bounce')
