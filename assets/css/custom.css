@@ -40,11 +40,11 @@ html {
 
 /* ***** Header styles ******  */
 header {
-  background: url('../../images/jpegs/hero.jpg') rgba(0, 0, 0, 0.7);
+  /* background: url('../../images/jpegs/hero.jpg') rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-blend-mode: multiply;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   width: 100%;
   height: 100vh;
   position: relative;
