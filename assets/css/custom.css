@@ -50,7 +50,7 @@ header {
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
-  animation: slide 30s infinite;
+  animation: slide 25s infinite;
 }
 
 /* .load {
@@ -59,13 +59,13 @@ header {
 
 @keyframes slide {
   0% {
-    background: url('../../images/jpegs/hero.jpg') rgba(0, 0, 0, 0.7);
+    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595613440/envato_2.0/hero.jpg') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   20% {
-    background: url('../../images/jpegs/hero.jpg') rgba(0, 0, 0, 0.7);
+    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595613440/envato_2.0/hero.jpg') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
