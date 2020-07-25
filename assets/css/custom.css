@@ -119,6 +119,12 @@ a.btn:hover {
   max-width: 1440px;
 }
 
+@media (min-width: 768px) {
+  .header-text-container {
+    margin-top: 10vh;
+  }
+}
+
 @media (max-width: 767px) {
   header {
     background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg');
@@ -231,6 +237,13 @@ nav li a {
     max-width: 1440px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
