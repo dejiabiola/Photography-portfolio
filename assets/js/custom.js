@@ -1,7 +1,24 @@
+// Sticky Nav
+$(function () {
+  $(window).on('scroll', function () {
+    if ($(window).scrollTop() > 60) {
+      $('.navbar').addClass('fixed-top scroll-down')
+    } else {
+      $('.navbar').removeClass('fixed-top scroll-down')
+    }
+  })
+})
 
-
-
-
+// Arrow Up
+$(function () {
+  $(window).on('scroll', function () {
+    if ($(window).scrollTop() > 699) {
+      $('.arrow').css('visibility', 'visible')
+    } else {
+      $('.arrow').css('visibility', 'hidden')
+    }
+  })
+})
 
 // Animate on scroll logic
 AOS.init({
@@ -9,11 +26,7 @@ AOS.init({
   easing: 'ease-in-out',
   offset: 160,
   duration: 600,
-});
-
-
-
-
+})
 
 // Slick Slider Configuration for my-work images
 $(document).ready(function () {
@@ -52,7 +65,7 @@ $(document).ready(function () {
       },
     ],
   })
-});
+})
 
 // Slick Slider Configuration for my-work images
 $(document).ready(function () {
@@ -90,73 +103,70 @@ $(document).ready(function () {
       },
     ],
   })
-});
-
-
+})
 
 // Logic for dropdown toggle on mobile (gallery)
-$(function(){
-  $(".gallery li a").click(function(){
-    $(".dropdown-gallery:first-child").text($(this).text());
-     $(".dropdown-gallery:first-child").val($(this).text());
-  });
-});
+$(function () {
+  $('.gallery li a').click(function () {
+    $('.dropdown-gallery:first-child').text($(this).text())
+    $('.dropdown-gallery:first-child').val($(this).text())
+  })
+})
 
 // Logic for dropdown toggle on mobile (my-work)
-$(function(){
-  $(".my-work li a").click(function(){
-    $(".dropdown-my-work:first-child").text($(this).text());
-     $(".dropdown-my-work:first-child").val($(this).text());
-  });
-});
+$(function () {
+  $('.my-work li a').click(function () {
+    $('.dropdown-my-work:first-child').text($(this).text())
+    $('.dropdown-my-work:first-child').val($(this).text())
+  })
+})
 
 // logic to change active tab pane for gallery section on mobile
-$(document).ready(function(){
-  $('.gallery li a').on('click', function(){
-    $('.gallery li a').removeClass('active');
-    $(this).addClass('active');
-    var href = $(this).attr('href').substring(1);
-    $('.tab-pane-gallery').removeClass('active show');
-    $('.tab-pane-gallery[id="'+ href +'"]').toggleClass('active show');
-  });
-});
+$(document).ready(function () {
+  $('.gallery li a').on('click', function () {
+    $('.gallery li a').removeClass('active')
+    $(this).addClass('active')
+    var href = $(this).attr('href').substring(1)
+    $('.tab-pane-gallery').removeClass('active show')
+    $('.tab-pane-gallery[id="' + href + '"]').toggleClass('active show')
+  })
+})
 
 // logic to change active tab pane for my-work section on mobile
-$(document).ready(function(){
-  $('.my-work li a').on('click', function(){
-    $('.my-work li a').removeClass('active');
-    $(this).addClass('active');
-    var href = $(this).attr('href').substring(1);
-    $('.tab-pane-my-work').removeClass('active show');
-    $('.tab-pane-my-work[id="'+ href +'"]').toggleClass('active show');
-  });
-});
+$(document).ready(function () {
+  $('.my-work li a').on('click', function () {
+    $('.my-work li a').removeClass('active')
+    $(this).addClass('active')
+    var href = $(this).attr('href').substring(1)
+    $('.tab-pane-my-work').removeClass('active show')
+    $('.tab-pane-my-work[id="' + href + '"]').toggleClass('active show')
+  })
+})
 
 // Hover config for patners section svg images
-$(".svg-hover").mouseover(function () {
-  $(this).attr('src', $(this).data("hover"));
-}).mouseout(function () {
-  $(this).attr('src', $(this).data("src"));
-});
-
-      
+$('.svg-hover')
+  .mouseover(function () {
+    $(this).attr('src', $(this).data('hover'))
+  })
+  .mouseout(function () {
+    $(this).attr('src', $(this).data('src'))
+  })
 
 // logic to insert clicked image into the modal
-$('.image').on('click', (event) => {
-  let src = event.target.src;
-  $('.image_modal').attr('src', src);
-});
+$('.image').on('click', event => {
+  let src = event.target.src
+  $('.image_modal').attr('src', src)
+})
 
 // logic to insert texts and information on clicked image into modal
 $('#myModal').on('show.bs.modal', function (event) {
-  var button = $(event.relatedTarget) 
-  var name = button.data('name') 
+  var button = $(event.relatedTarget)
+  var name = button.data('name')
   var date = button.data('date')
   var modal = $(this)
   modal.find('.couple-name').text(name)
   modal.find('.wedding-date').text(date)
 })
-
 
 $('.magnify').magnificPopup({
   delegate: 'a', // child items selector, by clicking on it popup will open
@@ -166,12 +176,6 @@ $('.magnify').magnificPopup({
   gallery: {
     enabled: true,
     navigateByImgClick: true,
-    preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+    preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
   },
-});
-
-
-
-
-
-
+})
