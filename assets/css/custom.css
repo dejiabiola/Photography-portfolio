@@ -115,14 +115,17 @@ a.btn:hover {
   background: var(--primary-color);
 }
 
+.navbar .container-fluid {
+  max-width: 1440px;
+}
+
 @media (max-width: 767px) {
   header {
     background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg');
-    filter: brightness(1);
   }
 
   .header-text-container {
-    margin-top: 240px;
+    padding-top: 0;
   }
 
   .header-socials > img {
@@ -506,6 +509,12 @@ iframe {
 @media (min-width: 1441px) {
   .slider-gallery {
     max-width: 1440px;
+  }
+
+  nav {
+    max-width: 100% !important;
+    /* padding-left: 0px;
+    padding-right: 0px; */
   }
 }
 
