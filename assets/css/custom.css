@@ -179,6 +179,16 @@ nav {
   padding: 0.5rem 7.5rem;
 }
 
+.navbar.fixed-top .nav-link {
+  color: var(--grey-color) !important;
+  transition: all 0.3s ease;
+}
+
+.navbar.fixed-top .nav-link:hover,
+.navbar.fixed-top .nav-link.active {
+  color: var(--secondary-color) !important;
+}
+
 .navbar-brand {
   font-family: var(--header-font);
   font-style: normal;
