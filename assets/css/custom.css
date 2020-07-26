@@ -23,7 +23,7 @@ html {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 1000;
   display: grid;
   place-content: center;
 }
@@ -89,8 +89,9 @@ a.btn:hover {
 }
 
 .header-text-container {
-  margin-top: 160px;
-  z-index: 100000;
+  height: 80%;
+  display: grid;
+  place-content: center;
 }
 
 .header-text-container img {
@@ -120,9 +121,9 @@ a.btn:hover {
 }
 
 @media (min-width: 768px) {
-  .header-text-container {
+  /* .header-text-container {
     margin-top: 10vh;
-  }
+  } */
 }
 
 @media (max-width: 767px) {
@@ -130,9 +131,9 @@ a.btn:hover {
     background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg');
   }
 
-  .header-text-container {
+  /* .header-text-container {
     padding-top: 0;
-  }
+  } */
 
   .header-socials > img {
     cursor: pointer;
@@ -179,7 +180,7 @@ nav {
   font-size: 15px;
   line-height: 22px;
   color: var(--secondary-color);
-  z-index: 100000;
+  z-index: 900;
   padding-left: 120px;
   padding-right: 120px;
 }
