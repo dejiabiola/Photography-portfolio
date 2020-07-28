@@ -167,9 +167,10 @@ a.btn:hover {
   }
 
   nav {
-    background-color: var(--primary-color);
-    padding-top: 0% !important;
-    max-width: 1440px !important;
+    /* background-color: var(--primary-color); */
+    /* padding-top: 0% !important; */
+    /* max-width: 1440px !important; */
+ 
   }
   
   h1 {
@@ -202,7 +203,6 @@ nav.scroll {
 
 
 nav {
-  position: absolute;
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
