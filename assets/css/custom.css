@@ -40,11 +40,6 @@ html {
 
 /* ***** Header styles ******  */
 header {
-  /* background: url('../../images/jpegs/hero.jpg');
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-position: center center;
-  background-repeat: no-repeat; */
   width: 100%;
   height: 100vh;
   position: relative;
@@ -64,7 +59,6 @@ header video {
 
 header:after {
   content: '';
-  /* display: block; */
   width: 100%;
   height: 100%;
   top: 0;
@@ -76,7 +70,6 @@ header:after {
 
 header:before {
   content: '';
-  /* display: block; */
   width: 100%;
   height: 100%;
   top: 0;
@@ -94,7 +87,7 @@ h1 {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
+  font-size: 5rem;
   line-height: 107px;
   color: var(--secondary-color);
 }
@@ -103,7 +96,7 @@ h1 + p {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 42px;
   color: var(--secondary-color);
 }
@@ -114,7 +107,7 @@ p + a.btn {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 42px;
   color: var(--primary-color);
   padding: 17px 38px;
@@ -166,20 +159,15 @@ a.btn:hover {
     cursor: pointer;
   }
 
-  nav {
-    /* background-color: var(--primary-color); */
-    /* padding-top: 0% !important; */
-    /* max-width: 1440px !important; */
- 
-  }
+
   
   h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 47px;
   }
 
   h1 + p {
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
   }
 
@@ -206,7 +194,7 @@ nav {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 22px;
   color: var(--secondary-color);
   z-index: 100000;
@@ -222,7 +210,7 @@ nav {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 37px;
 
   color: var(--secondary-color);
@@ -290,7 +278,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 1.313rem;
   line-height: 31px;
   color: var(--grey-color);
 }
@@ -354,7 +342,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 42px;
   border: none;
   border-radius: 0;
@@ -418,7 +406,7 @@ nav li a {
   .gallery-button {
     width: 221px;
     height: 48px;
-    font-size: 21px;
+    font-size: 1.313rem;
     line-height: 31px;
   }
 
@@ -437,7 +425,7 @@ nav li a {
     font-family: var(--text-font);
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 27px;
     color: var(--primary-color);
     width: 300px;
@@ -452,7 +440,7 @@ nav li a {
   }
 
   .dropdown-toggles:after {
-    font-size: 35px;
+    font-size: 2.188rem;
     vertical-align: 0;
     position: absolute;
     top: 39%;
@@ -494,7 +482,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 27px;
   color: var(--primary-color);
 }
@@ -543,7 +531,7 @@ nav li a {
   }
 
   .mywork-container h2 {
-    font-size: 35px;
+    font-size: 2.188rem;
     line-height: 47px;
     margin-bottom: 20px;
   }
@@ -589,7 +577,7 @@ nav li a {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 67px;
   color: var(--primary-color);
   margin-bottom: 33px;
@@ -603,7 +591,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 37px;
   color: var(--primary-color);
   margin-bottom: 33px;
@@ -616,12 +604,12 @@ nav li a {
 
 @media (max-width: 767px) {
   .about-me {
-    font-size: 35px;
+    font-size: 2.188rem;
     line-height: 47px;
   }
 
   .about-me + p {
-    font-size: 21px;
+    font-size: 1.313rem;
     line-height: 31px;
     text-align: center;
     margin-top: 20px;
@@ -640,7 +628,7 @@ nav li a {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 67px;
   padding-top: 154px;
   margin-bottom: 18px;
@@ -650,7 +638,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 42px;
   margin-bottom: 94px;
 }
@@ -671,7 +659,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 60px;
   margin-bottom: 34px;
 }
@@ -680,7 +668,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 1.563rem;
   line-height: 37px;
 
 }
@@ -691,14 +679,14 @@ nav li a {
   }
 
   .skills-container h2 {
-    font-size: 25px;
+    font-size: 1.563rem;
     line-height: 33px;
     padding-top: 22px;
     margin-bottom: 8px;
   }
 
   .skills-container h2 + p {
-    font-size: 15px;
+    font-size: 0.938rem;
     line-height: 22px;
     margin-bottom: 36px;
   }
@@ -707,15 +695,14 @@ nav li a {
     width: 59.17px;
     height: 59.17px;
     border-radius: 12.482px;
-    font-size: 18.4918px;
+    font-size: 1.156rem;
     line-height: 25px;
-    font-size: 18.4918px;
     line-height: 25px;
     margin-bottom: 7.83px;
   }
 
   .skill-external p {
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 18px;
   }
 }
@@ -754,7 +741,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 27px;
   color: var(--primary-color);
 }
@@ -805,7 +792,7 @@ nav li a {
   }
 
   .mywork-container h2 {
-    font-size: 35px;
+    font-size: 2.188rem;
     line-height: 47px;
     margin-bottom: 20px;
   }
@@ -867,7 +854,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 1.875rem;
   line-height: 45px;
   color: var(--primary-color)
 }
@@ -890,7 +877,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 22px;
   color: var(--primary-color);
   margin-bottom: 7px;
@@ -916,7 +903,7 @@ nav li a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 22px;
   color: var(--secondary-color);
   border-radius: 0;
@@ -943,7 +930,7 @@ nav li a {
   }
 
   .rates-card h3 {
-    font-size: 21px;
+    font-size: 1.313rem;
     line-height: 31px;
   }
 
@@ -978,7 +965,7 @@ nav li a {
   font-family: var(--header-font);
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 67px;
   color: var(--primary-color);
   margin-bottom: 63px;
@@ -990,7 +977,7 @@ nav li a {
 
 @media (max-width: 767px) {
   .same-h2 {
-    font-size: 35px;
+    font-size: 2.188rem;
     line-height: 47px;
   }  
 
@@ -1019,7 +1006,7 @@ label {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 22px;
   color: #777777;
 }
@@ -1031,7 +1018,7 @@ label {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 42px;
   margin-bottom: 81px;
   border: none;
@@ -1046,7 +1033,7 @@ label {
   .contact-submit {
     width: 179px;
     height: 48px;
-    font-size: 21px;
+    font-size: 1.313rem;
     line-height: 31px;
     margin-bottom: 160px;
   }
@@ -1062,7 +1049,7 @@ footer {
   color: var(--footer-links-color);
   font-family: var(--text-font);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 27px;
 
 }
@@ -1078,7 +1065,7 @@ footer {
 footer h3 {
   font-family: var(--header-font);
   font-weight: 500;
-  font-size: 50px;
+  font-size: 3.125rem;
   line-height: 67px;
   color: var(--secondary-color);
 }
@@ -1113,7 +1100,7 @@ footer a {
 
 @media (max-width: 767px) {
   footer h3 {
-    font-size: 35px;
+    font-size: 2.188rem;
     line-height: 47px;
     margin-top: 34px;
     margin-bottom: 11px;
@@ -1176,7 +1163,7 @@ footer a {
   font-family: var(--text-font);
   font-style: normal;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 1.313rem;
   line-height: 31px;
   color: var(--primary-color);
   background: none;
@@ -1202,14 +1189,14 @@ footer a {
 
 .modal-image h2 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 42px;
   margin-bottom: 16px;
 }
 
 .modal-image p, .modal-image .span {
   font-weight: normal;
-  font-size: 21px;
+  font-size: 1.313rem;
   line-height: 31px;
 }
 
@@ -1225,14 +1212,12 @@ footer a {
   margin-bottom: 40px;
 }
 
-/* .modal-header-text {
-  width: 200px;
-} */
+
 
 .modal-header-text p {
   font-style: normal;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 1.313rem;
   line-height: 31px;
   font-family: var(--text-font);
   color: var(--primary-color);
@@ -1267,7 +1252,7 @@ footer a {
 
   .modal-image h2 {
     font-weight: 600;
-    font-size: 21px;
+    font-size: 1.313rem;
     line-height: 31px;
     margin-bottom: 26px;
   }
@@ -1309,13 +1294,6 @@ footer a {
 }
 
 
-@media (min-width: 400px) {
-
-
-  /* .modal-top > .row {
-    justify-content: space-between !important;
-  } */
-}
 
 
 
