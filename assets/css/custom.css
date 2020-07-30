@@ -19,7 +19,7 @@ html {
 
 /* *** Preloader *** */
 #preloader {
-  background: #fff;
+  background: #202020;
   position: fixed;
   top: 0;
   left: 0;
@@ -31,10 +31,10 @@ html {
 }
 
 #status {
-  background: url('../../images/preloader.gif');
+  background: url('../../assets/images/preloader/Eclipse-1s-101px.gif');
   background-repeat: no-repeat;
-  width: 60px;
-  height: 60px;
+  width: 101px;
+  height: 101px;
   margin-top: 250px;
 }
 
