@@ -9,16 +9,7 @@ $(function () {
   })
 })
 
-// Arrow Up
-$(function () {
-  $(window).on('scroll', function () {
-    if ($(window).scrollTop() > 699) {
-      $('.arrow').css('visibility', 'visible')
-    } else {
-      $('.arrow').css('visibility', 'hidden')
-    }
-  })
-})
+
 
 // Animate on scroll logic
 AOS.init({

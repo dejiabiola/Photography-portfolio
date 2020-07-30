@@ -32,11 +32,6 @@
     <link rel="stylesheet" href="./assets/css/slick/slick-theme.css" />
     <!-- custom css -->
     <link rel="stylesheet" href="./assets/css/custom.css" />
-    <style>
-      * {
-        outline: 1px solid red;
-      }
-    </style>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- *** Preloader Starts *** -->
@@ -51,7 +46,7 @@
         class="px-auto navbar navbar-expand-md"
         data-aos="fade"
         data-aos-duration="1000"
-        data-aos-delay="2000"
+        data-aos-delay="2400"
       >
         <div class="container-fluid">
           <a class="navbar-brand mt-1 mr-4 d-md-none" href="#">John Doe</a>
@@ -118,7 +113,7 @@
         data-aos="fade-up"
         data-aos-duration="700"
         data-aos-easing="ease-in-out"
-        data-aos-delay="1800"
+        data-aos-delay="2500"
         id="home"
       >
         <h1 class="mb-3">JOHN DOE</h1>
@@ -1588,24 +1583,17 @@
     </div>
     <!-- *****End of Modal Section***** -->
 
-    <!-- *** Arrow Up *** -->
-    <div class="arrow">
-      <a href="#home"><img src="./images/Scroll.svg" alt="Scroll" /></a>
-    </div>
 
     <!-- *** Scripts Starts *** -->
     <!-- jQuery -->
     <script src="./assets/js/jquery/jquery-3.5.1.min.js"></script>
     <script>
       // logic for the preloader
-      $(window).on('load', function () {
-        $('#status').fadeOut()
-        $('#preloader').delay(500).fadeOut()
-      })
-
       $(document).ready(function () {
-        $('.navbar-brand').addClass('animate__animated animate__bounce')
-      })
+        $('#status').delay(2000).fadeOut()
+        $('#preloader').delay(2400).fadeOut()
+      });
+
     </script>
     <!-- Popper Js -->
     <script src="./assets/js/popper/popper.min.js"></script>
