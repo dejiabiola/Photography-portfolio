@@ -1,7 +1,7 @@
 // Sticky Nav
 $(function () {
   $(window).on('scroll', function () {
-    if ($(window).scrollTop() > 60) {
+    if ($(window).scrollTop() > 30) {
       $('.navbar').addClass('fixed-top scroll-down')
     } else {
       $('.navbar').removeClass('fixed-top scroll-down')

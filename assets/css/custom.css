@@ -115,7 +115,10 @@ a.btn:hover {
 }
 
 .navbar.scroll-down {
-  background: var(--primary-color);
+  background: url("../gif/ezgif.com-optimize.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
 }
 
 .navbar .container-fluid {
@@ -142,7 +145,10 @@ a.btn:hover {
   }
 
   nav {
-    background-color: var(--primary-color);
+    background: url("../gif/ezgif.com-optimize.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
     padding-top: 0% !important;
     max-width: 1440px !important;
   }
