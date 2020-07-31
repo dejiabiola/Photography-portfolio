@@ -1,9 +1,8 @@
 
 // logic for the preloader
-$(window).on('load', function () {
-  $('#status').fadeOut()
-  $('#preloader').delay(500).fadeOut()
-  $('.navbar-brand').addClass('animate__animated animate__bounce')
+$(document).ready(function () {
+  $('#status').dalay(2000).fadeOut()
+  $('#preloader').delay(2400).fadeOut()
 })
 
 
