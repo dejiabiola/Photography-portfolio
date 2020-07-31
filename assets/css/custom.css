@@ -121,6 +121,8 @@ a.btn:hover {
   height: 80%;
   display: grid;
   place-content: center;
+  position: relative;
+  z-index: 20;
 }
 
 .header-text-container img {
@@ -152,20 +154,11 @@ a.btn:hover {
   max-width: 1440px;
 }
 
-@media (min-width: 768px) {
-  /* .header-text-container {
-    margin-top: 10vh;
-  } */
-}
-
 @media (max-width: 767px) {
   header {
     background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg');
   }
 
-  /* .header-text-container {
-    padding-top: 0;
-  } */
 
   .header-socials > img {
     cursor: pointer;
