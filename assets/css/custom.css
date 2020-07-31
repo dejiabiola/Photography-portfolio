@@ -56,61 +56,61 @@ header {
 
 @keyframes slide {
   0% {
-    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595613440/envato_2.0/hero.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   20% {
-    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595613440/envato_2.0/hero.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   20.01% {
-    background: url('../../images/jpegs/gallery_image.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   40% {
-    background: url('../../images/jpegs/gallery_image.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   40.01% {
-    background: url('../../images/jpegs/my_work_photos_1.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   60% {
-    background: url('../../images/jpegs/my_work_photos_1.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   60.01% {
-    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595467623/envato_2.0/hero2.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   80% {
-    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595467623/envato_2.0/hero2.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   80.01% {
-    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595368924/envato_2.0/carousel_1.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   100% {
-    background: url('https://res.cloudinary.com/dejiabiola/image/upload/v1595368924/envato_2.0/carousel_1.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/hero.png') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
