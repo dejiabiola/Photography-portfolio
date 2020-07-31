@@ -165,7 +165,7 @@ a.btn:hover {
   }
 
   nav {
-    background: url("../gif/ezgif.com-optimize.gif");
+    background-color: var(--primary-color);
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -252,6 +252,12 @@ nav li a {
 @media (max-width: 1057px) {
   .navbar {
     padding: 0.5rem 2.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 0.5rem 2.2rem;
   }
 }
 
