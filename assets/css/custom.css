@@ -139,6 +139,7 @@ a.btn:hover {
   animation-iteration-count: infinite;
   animation-delay: 3.5s;
   animation-direction: 5s !important;
+  z-index: 200;
 }
 
 
