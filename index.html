@@ -423,12 +423,16 @@
           <p>This variation sets the bacground of the navbar with a gif when a user starts scrolling. The gif can be custimised to your preference
             To change the gif, you can replace the current one with another of your choice in the custom.css file</p>
           <pre class="prettyprint lang-css linenums">
-            &lt;video loop muted autoplay preload="auto"&gt;
-            &lt;source src="https://res.cloudinary.com/dejiabiola/video/upload/v1595611393/Time_Lapse_Video_Of_Night_Sky.mp4" type="video/mp4"&gt;
-          Your browser does not support video
-        &lt;video&gt;
+            .navbar.scroll-down {
+              background: url("../gif/ezgif.com-optimize.gif");
+              background-repeat: no-repeat;
+              background-size: cover;
+              object-fit: cover;
+            }
           </pre>
         </div>
+        <h4>Sticky Navbar Variation</h4>
+        <p>No configuration is required for this variation</p>
         <p>&nbsp;</p>
       </section>
 
