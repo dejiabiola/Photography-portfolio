@@ -321,7 +321,7 @@
               Video hero section: In this variation you can have a video play in the background of the hero section.
             </li>
             <li>
-              Sliding hero image section: In this variation, there is a carousel of images with a fading transition between them every two seconds
+              Sliding image hero section: In this variation, there is a carousel of images with a fading transition between them every two seconds
             </li>
             <li>
               Sticky nav: In this variation, the navigation is sticks to the top of the viewport when the user scrolls down.
@@ -333,22 +333,27 @@
             </li>
           </ul>
         </div>
+        <h2 style="text-decoration: underline;">How to Edit the Variations</h2>
         <div>
-          <h2>How to Edit the Variations</h2>
           <h4>Video Hero Variation</h4>
           <p>The main code for this variation is the video element located in the header element in index.html. You can easily edit it to any video of your choice
-            by changing the src attribute to the link of any videp pf your choice</p>
-        </div>
-        <div>
-          &nbsp;
-        </div>
-        <div>
-          All the JavaScript libraries and files are included at the bottom of
-          every HTML page like this:
-        </div>
-        <div>
+            by changing the src attribute to the link of any videp of your choice</p>
           <pre class="prettyprint lang-html linenums">
-            
+            &lt;video loop muted autoplay preload="auto"&gt;
+            &lt;source src="https://res.cloudinary.com/dejiabiola/video/upload/v1595611393/Time_Lapse_Video_Of_Night_Sky.mp4" type="video/mp4"&gt;
+          Your browser does not support video
+        &lt;video&gt;
+          </pre>
+        </div>
+        <div>
+          <h4>Sliding Image Hero Variation</h4>
+          <p>For this variation, css key frames was utilised to make the images transition every 2 seconds. To change the image or make asjustments to the time between transitions,
+            you will make the adjustments in the custom.css file.</p>
+          <pre class="prettyprint lang-html linenums">
+            &lt;video loop muted autoplay preload="auto"&gt;
+            &lt;source src="https://res.cloudinary.com/dejiabiola/video/upload/v1595611393/Time_Lapse_Video_Of_Night_Sky.mp4" type="video/mp4"&gt;
+          Your browser does not support video
+        &lt;video&gt;
           </pre>
         </div>
         <p>&nbsp;</p>
