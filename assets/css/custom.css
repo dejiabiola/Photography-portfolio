@@ -173,6 +173,12 @@ header {
 }
 
 @media (max-width: 450px) {
+
+  .wrapper {
+    min-height: 30vh;
+  }
+
+
   .variation {
     height: 210px;
     border-width: 7px;
