@@ -13,6 +13,7 @@
 }
 
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -99,7 +100,8 @@ header {
 
 /* *main section */
 
-img.variation {
+
+.variation {
   display: block;
   width: 500px;
   height: 300px;
@@ -109,6 +111,8 @@ img.variation {
   box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.6);
   position: relative;
 }
+
+
 
 .main {
   margin-bottom: 100px;
@@ -155,4 +159,48 @@ img.variation {
 
 .footer-section p {
   font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .variation {
+    height: 270px;
+  }
+
+  .coming-soon-container {
+    height: 270px;
+  }
+}
+
+@media (max-width: 450px) {
+  .variation {
+    height: 190px;
+    border-width: 7px;
+  }
+
+  .coming-soon-container {
+    height: 190px;
+  }
+
+  .coming-soon {
+    width: 50px;
+  }
+
+  .footer-section p {
+    font-size: 10px;
+  }
+
+  .row h5 {
+    font-size: 13px;
+  }
+
+  .wrapper .content h1 {
+    font-size: 2rem;
+  }
+  
+  .wrapper .content p {
+    font-size: 0.9rem;
+    
+  }
+
 }
