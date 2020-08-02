@@ -174,12 +174,12 @@ header {
 
 @media (max-width: 450px) {
   .variation {
-    height: 190px;
+    height: 200px;
     border-width: 7px;
   }
 
   .coming-soon-container {
-    height: 190px;
+    height: 200px;
   }
 
   .coming-soon {
