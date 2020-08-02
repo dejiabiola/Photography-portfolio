@@ -12,6 +12,9 @@
   --footer-links-color: #CDCDCD;
 }
 
+* {
+  outline: 1px solid red;
+}
 
 html {
   scroll-behavior: smooth;
@@ -99,7 +102,7 @@ header {
 
 /* *main section */
 
-img {
+img.variation {
   display: block;
   width: 500px;
   height: 300px;
@@ -107,6 +110,7 @@ img {
   border-radius: 10px;
   border: 10px solid grey;
   box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.6);
+  position: relative;
 }
 
 .main {
@@ -119,6 +123,18 @@ img {
   font-size: 20px;
   text-transform: capitalize;
   color: #3c3c3c;
+}
+
+.coming-soon-container {
+  position: relative;
+}
+
+.coming-soon {
+  position: absolute;
+  z-index: 3;
+  top: 20px;
+  right: 80px;
+  width: 150px;
 }
 
 
