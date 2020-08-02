@@ -12,9 +12,6 @@
   --footer-links-color: #CDCDCD;
 }
 
-* {
-  outline: 1px solid red;
-}
 
 html {
   scroll-behavior: smooth;
@@ -32,7 +29,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 9999;
+  z-index: 999999;
   display: flex;
   justify-content: center;
 }
@@ -127,15 +124,26 @@ img.variation {
 
 .coming-soon-container {
   position: relative;
+  display: block;
+  width: 500px;
+  height: 300px;
+  max-width: 100%;
 }
 
 .coming-soon {
   position: absolute;
   z-index: 3;
-  top: 20px;
-  right: 80px;
-  width: 150px;
+  top: 30px;
+  left: 7%;
+  width: 100px;
 }
+
+.coming-soon-pic {
+  position: relative;
+  display: block;
+}
+
+
 
 
 
