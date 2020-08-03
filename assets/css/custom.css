@@ -68,25 +68,25 @@ header {
     background-size: cover;
   }
   20.01% {
-    background: url('../../images/jpegs/gallery_image.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/live-images/jpegs/gallery_image.jpg') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   40% {
-    background: url('../../images/jpegs/gallery_image.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/live-images/jpegs/gallery_image.jpg') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   40.01% {
-    background: url('../../images/jpegs/my_work_photos_1.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/live-images/jpegs/my_work_photos_1.jpg') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   60% {
-    background: url('../../images/jpegs/my_work_photos_1.jpg') rgba(0, 0, 0, 0.7);
+    background: url('../images/live-images/jpegs/my_work_photos_1.jpg') rgba(0, 0, 0, 0.7);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,10 +180,7 @@ a.btn:hover {
 
 
 @media (max-width: 767px) {
-  header {
-    background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg') ;
-    filter: brightness(1);
-  }
+
 
   .header-text-container {
     margin-top: 240px;
