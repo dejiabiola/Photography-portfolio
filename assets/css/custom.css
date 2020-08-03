@@ -40,7 +40,7 @@ html {
 
 /* ***** Header styles ******  */
 header {
-  background: url('../../images/jpegs/hero.jpg') rgba(0, 0, 0, 0.7);
+  background: url('../../assets/images/live-images/jpegs/hero.jpg') rgba(0, 0, 0, 0.7);
   background-size: cover;
   background-blend-mode: multiply;
   background-position: center center;
@@ -117,7 +117,7 @@ a.btn:hover {
 
 @media (max-width: 767px) {
   header {
-    background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg') ;
+    background-image: url('../../assets/images/live-images/jpegs/grayscale_photo_of_m_G64P9.jpg') ;
     filter: brightness(1);
   }
 
