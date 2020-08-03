@@ -156,9 +156,7 @@ a.btn:hover {
 }
 
 @media (max-width: 767px) {
-  header {
-    background-image: url('../../images/jpegs/grayscale_photo_of_m_G64P9.jpg');
-  }
+
 
 
   .header-socials > img {
