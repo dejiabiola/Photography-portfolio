@@ -19,22 +19,22 @@ html {
 
 /* *** Preloader *** */
 #preloader {
-  background: #fff;
+  background: #202020;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 999999;
+  z-index: 9999999;
   display: flex;
   justify-content: center;
 }
 
 #status {
-  background: url('../../images/preloader.gif');
+  background: url('../../assets/images/preloader/Eclipse-1s-101px.gif');
   background-repeat: no-repeat;
-  width: 60px;
-  height: 60px;
+  width: 101px;
+  height: 101px;
   margin-top: 250px;
 }
 
