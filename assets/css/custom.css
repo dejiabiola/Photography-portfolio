@@ -31,7 +31,7 @@ html {
 }
 
 #status {
-  background: url('../../assets/images/preloader/Eclipse-1s-101px.gif');
+  background: url('../images/preloader/Eclipse-1s-101px.gif');
   background-repeat: no-repeat;
   width: 101px;
   height: 101px;
@@ -41,7 +41,7 @@ html {
 /* ***** Header styles ******  */
 header {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -139,6 +139,7 @@ a.btn:hover {
   animation-iteration-count: infinite;
   animation-delay: 3.5s;
   animation-direction: 5s !important;
+  z-index: 200;
 }
 
 
